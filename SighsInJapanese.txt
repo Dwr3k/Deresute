@@ -1,0 +1,53 @@
+Idol Name:	Uzuki Shimamura											
+Card Name		Life	Vocal	Dance	Visual	Total	Leader	Skill	Bonus Life	Bonus Vocal	Bonus Dance	Bonus Visual
+Stage of Magic		42	5137	5080	5069	15286	Cute Brilliance	9 Extreme PL	2	212	209	209
+P.C.S		42	3743	6825	4508	15076	Cute Ability	9  Coordinate	2	154	281	186
+
+Idol Name:	Sae Kobayakawa											
+Card Name		Life	Vocal	Dance	Visual	Total	Leader	Skill	Bonus Life	Bonus Vocal	Bonus Dance	Bonus Visual
+Hagoromo Komachi		42	4490	6862	3714	15066	Shiny Step	7 Concentration	2	185	283	153
+
+Idol Name:	Kyoko Igarashi											
+Card Name		Life	Vocal	Dance	Visual	Total	Leader	Skill	Bonus Life	Bonus Vocal	Bonus Dance	Bonus Visual
+Warm Heart		42	4668	5761	4851	15280	Cute Brilliance	13 Score Bonus	2	192	237	200
+									
+Idol Name:	Azuki Momoi											
+Card Name		Life	Vocal	Dance	Visual	Total	Leader	Skill	Bonus Life	Bonus Vocal	Bonus Dance	Bonus Visual
+Master Plan of the Festivals Belle		42	4514	3753	6814	15081	Cute Makeup	8 All-Round	2	186	155	281
+												
+Idol Name:	Rina Fujimoto											
+Card Name		Life	Vocal	Dance	Visual	Total	Leader	Skill	Bonus Life	Bonus Vocal	Bonus Dance	Bonus Visual
+Lovemory?Party		42	6874	3705	4484	15063	Cute Voice	9 All-Round	2	283	153	185
+												
+Idol Name:	Karin Domyoji											
+Card Name		Life	Vocal	Dance	Visual	Total	Leader	Skill	Bonus Life	Bonus Vocal	Bonus Dance	Bonus Visual
+My Earnest Progress		42	4495	6850	3724	15069	Cute Step	9 All-Round	2	185	282	154
+												
+Idol Name:	Yukari Mizumoto											
+Card Name		Life	Vocal	Dance	Visual	Total	Leader	Skill	Bonus Life	Bonus Vocal	Bonus Dance	Bonus Visual
+Aerial Melodia		42	3724	6850	4495	15069	Cute Step	6 Score Bonus	2	154	282	185
+
+Idol Name:	Sana Miyoshi											
+Card Name		Life	Vocal	Dance	Visual	Total	Leader	Skill	Bonus Life	Bonus Vocal	Bonus Dance	Bonus Visual
+Play the Game!		42	6838	3734	4502	15074	Passion Voice	9 All-Round	2	282	154	186
+							
+Idol Name:	Yuko Hori											
+Card Name		Life	Vocal	Dance	Visual	Total	Leader	Skill	Bonus Life	Bonus Vocal	Bonus Dance	Bonus Visual
+Youth Energy		42	4505	3754	6756	15015	Passion Makeup	11 Score Bonus	2	186	155	278
+	
+Idol Name:	Ayame Hamaguchi											
+Card Name		Life	Vocal	Dance	Visual	Total	Leader	Skill	Bonus Life	Bonus Vocal	Bonus Dance	Bonus Visual
+Kunoichi's ABC		42	3744	6768	4498	15010	Passion Step	11 Score Bonus	2	154	279	185
+
+Idol Name:	Mika Jougasaki											
+Card Name		Life	Vocal	Dance	Visual	Total	Leader	Skill	Bonus Life	Bonus Vocal	Bonus Dance	Bonus Visual
+Heart?Overflow		42	4920	5547	4795	15262	Passion Brilliance	9 Score Bonus	2	203	229	198
+					
+Idol Name:	Kirarin Moroboshi											
+Card Name		Life	Vocal	Dance	Visual	Total	Leader	Skill	Bonus Life	Bonus Vocal	Bonus Dance	Bonus Visual
+Great Present		42	3678	6619	4413	14710	Passion Step	9 Score Bonus	2	152	273	182
+
+Idol Name:	Kaede Takagaki											
+Card Name		Life	Vocal	Dance	Visual	Total	Leader Skill	Skill	Bonus Life	Bonus Vocal	Bonus Dance	Bonus Visual
+Life-Sized Distance		42	4775	4533	5989	15297	Cool Brilliance	6 Score Bonus	2	197	187	247
+Eternal Plume		42	5089	5068	5071	15228	Cool Energy	8 Healer	4	210	209	209
