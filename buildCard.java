@@ -11,22 +11,39 @@ public class buildCard
 	private int vocal;
 	private int dance;
 	private int visual;
+	private int total;
+	private String leaderSkill;
+	private String skill;
+	private int bonusLife;
+	private int bonusVocal;
+	private int bonusDance;
+	private int bonusVisual;
+	private int bonusTotal;
+	
 
-	protected ArrayList<buildCard> idols = new ArrayList<buildCard>();
+	private ArrayList<buildCard> idols = new ArrayList<buildCard>();
 
 	buildCard()
 	{
 
 	}
 
-	buildCard(String name, String cardName, int life, int vocal, int dance, int visual)
+	buildCard(String name, String cardName, int life, int vo, int da, int vi, int total, String leader, String skill, int boLife, int boVo, int boDa, int boVi, int boTo)
 	{
 		idol = name;
 		card = cardName;
 		this.life = life;
-		this.vocal = vocal;
-		this.dance = dance;
-		this.visual = visual;
+		vocal = vo;
+		dance = da;
+		visual = vi;
+		this.total = total;
+		leaderSkill = leader;
+		this.skill = skill;
+		bonusLife = boLife;
+		bonusVocal = boVo;
+		bonusDance = boDa;
+		bonusVisual = boVi;
+		bonusTotal = boTo;
 	}
 
 	public ArrayList<buildCard> getIdols()
@@ -94,6 +111,86 @@ public class buildCard
 		return vocal;
 	}
 
+	public void setTotal(String number)
+	{
+		total = Integer.parseInt(number);
+	}
+	
+	public int getTotal()
+	{
+		return total;
+	}
+	
+	public void setLeaderSkill(String skill)
+	{
+		leaderSkill = skill;
+	}
+	
+	public String getLeaderSkill()
+	{
+		return leaderSkill;
+	}
+	
+	public void setSkill(String skill)
+	{
+		this.skill = skill;
+	}
+	
+	public String getSkill()
+	{
+		return skill;
+	}
+	
+	public void setBonusLife(String number)
+	{
+		bonusLife = Integer.parseInt(number);
+	}
+	
+	public int getBonusLife()
+	{
+		return bonusLife;
+	}
+	
+	public void setBonusVocal(String number)
+	{
+		bonusVocal = Integer.parseInt(number);
+	}
+	
+	public int getBonusVocal()
+	{
+		return bonusVocal;
+	}
+	
+	public void setBonusDance(String number)
+	{
+		bonusDance = Integer.parseInt(number);
+	}
+	
+	public int getBonusDance()
+	{
+		return bonusDance;
+	}
+	
+	public void setBonusVisual(String number)
+	{
+		bonusVisual = Integer.parseInt(number);
+	}
+	
+	public int getBonusVisual()
+	{
+		return bonusVisual;
+	}
+	
+	public void setBonusTotal()
+	{
+		bonusTotal = getBonusVocal() + getBonusDance() + getBonusVisual();
+	}
+	
+	public int getBonusTotal()
+	{
+		return bonusTotal;
+	}
+	
 	public void cardMaker() throws FileNotFoundException
 	{
 		File input = new File("SighsInJapanese.txt");	
@@ -117,10 +214,18 @@ public class buildCard
 
 					setCard(values[0]);
 					setLife(values[1]);
-					setVisual(values[2]);
+					setVocal(values[2]);
 					setDance(values[3]);
-					setVocal(values[4]);
-
+					setVisual(values[4]);
+					setTotal(values[5]);
+					setLeaderSkill(values[6]);
+					setSkill(values[7]);
+					setBonusLife(values[8]);
+					setBonusVocal(values[9]);
+					setBonusDance(values[10]);
+					setBonusVisual(values[11]);
+					setBonusTotal();
+					
 					addCard();
 				}
 			}
@@ -137,28 +242,28 @@ public class buildCard
 		int vocal = getVocal();
 		int dance = getDance();
 		int visual = getVisual();
+		int total = getTotal();
+		String leader = getLeaderSkill();
+		String skill = getSkill();
+		int bonusLife = getBonusLife();
+		int boVo = getBonusVocal();
+		int boDa = getBonusDance();
+		int boVi = getBonusVisual();
+		int boTo = getBonusTotal();
 
-		idols.add(new buildCard(idol, card, life, vocal, dance, visual));
-
-		//System.out.println("Added " + idol + " " + card + " card");
+		idols.add(new buildCard(idol, card, life, vocal, dance, visual, total, leader, skill, bonusLife, boVo, boDa, boVi, boTo));
 	}
 
 	public static void main(String[] args) throws FileNotFoundException
 	{
 		buildCard test = new buildCard();
-
-		test.cardMaker();
-
-		ArrayList<buildCard> myIdols = test.getIdols();
 		
-		for(buildCard idol : myIdols)
+		test.cardMaker();
+		ArrayList<buildCard> idols = test.getIdols();
+		
+		for(buildCard idol : idols)
 		{
-			if(idol.idol.contains("Uzuki"))
-			{
-				System.out.println(idol.card + " " + idol.vocal);
-			}
-
+			
 		}
-
 	}
 }
